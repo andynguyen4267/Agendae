@@ -1,0 +1,15 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none; /* Default value */
+}
+
+.todo-item.completed {
+    text-decoration: line-through;
+}
+
+.task-text {
+    flex-grow: 1;
+    text-align: left;
+}
