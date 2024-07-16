@@ -16,7 +16,7 @@ function TodoForm( {addTask} ) {
           <TextField 
             fullWidth 
             variant="outlined" 
-            label="Enter New Task Here" 
+            label="Enter new task here or click the voice icon for voice input." 
             value={value} 
             onChange={(e) => setValue(e.target.value)}
             style={{ marginRight: '8px' }}
