@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Container, Typography, List, ListItem, ListItemText, Button, Box, Grid } from '@mui/material';
+import { Container, Typography, List, ListItem, ListItemText, Button, Box } from '@mui/material';
 import TodoForm from "../TodoForm/TodoForm";
-import TodoItem from "../TodoItem/TodoItem";
 import VoiceSearch from "../VoiceSearch/VoiceSearch";
 
 

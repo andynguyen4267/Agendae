@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 import Homepage from '../Homepage/Homepage';
 import TodoPage from "../TodoPage/TodoPage";
-import React, { useState } from "react";
+import LoginPage from '../LoginPage/LoginPage';
+import Signup from '../Signup/Signup';
+import React from "react";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path='/todo' element={<TodoPage/>} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
     </Router>
   );
